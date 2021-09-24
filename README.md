@@ -1,1 +1,71 @@
 # VueJs
+
+new Vue({
+ el : '#app',
+ methods : {
+    oninput : function(event) {
+    
+    }
+ },
+ computed : {
+ },
+ template : ''
+ 
+});
+
+el -> short cut for element 
+el -> 1 -> instructs the vue to find the template inside the dom.
+
+method -> 2 -> method is a function tied to vue instance ,that gets called to somehow respond to user events
+
+directives --> adds special behaviours to the tags.
+
+v-on:input -> directive -> event handler
+
+v-on -> attach an event handler
+input -> event
+
+event.target.value --> target is the input field or any field on which the event occured.
+
+Imperative vs Declarative -->
+imperative -->  write our code step by step
+Declarative --> rules that application should follow. has a state then follow the states.
+
+computed  ->> consume the method and apply change to the vue template.
+
+
+data -> Defines Initial state
+methods -> defines the different ways our state can change
+computed -> Turns data into viewable values.  If you want to change value before rendering just change it on computed.
+
+v-html --> directive --> snippet of html. render it as html.
+
+steps for rendering ->
+1. Vue instance is created
+2. data is evaluated.
+3. method is executed data properties are updated.
+4. if data is updated then view will automatically re render.
+5. while re rendering it evaluates computed.
+
+template -> should have one root element
+
+Odd n Ends #1
+The template need not in html.
+Odd n Ends #2
+Computed functions needs to be applied if and if only we need change render.
+Odd n Ends #3
+Interpolated values in templates can have simple javascript expressions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
