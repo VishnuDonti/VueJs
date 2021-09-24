@@ -31,6 +31,16 @@ Imperative vs Declarative -->
 imperative -->  write our code step by step
 Declarative --> rules that application should follow. has a state then follow the states.
 
+
+Vue Cli -> sets up everything 
+Babel and Webpack
+Webpack. --> combines all files in to single file 
+Babel -> allows execution of ES versions even the browser doesnt support it.
+
+
+
+
+
 computed  ->> consume the method and apply change to the vue template.
 
 
