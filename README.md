@@ -66,6 +66,34 @@ Computed functions needs to be applied if and if only we need change render.
 Odd n Ends #3
 Interpolated values in templates can have simple javascript expressions.
 
+div has a display property block
+
+import statement,
+Add component in template and in the script section
+
+Best practise is to communicate with parent component than sibbling component
+
+pass props when want to communicate parent to child.
+
+when child wants to communicate from child to parent child needs to emit event and parent will use that event.
+$emit --> emit events ('eventName', 'value to be emitted');
+
+npm install --save axios
+
+
+when working with vue instance data can be object or function
+when working with vue component data should be function
+
+v-bind:name(the name accessible from parent component)="". --> :
+
+v-for="key in keys"
+:key="" id which is unique for each and every key
+v-bind:key=key 
+
+BootStrap expects container on root tag
+<img v-bind:src="" />
+prop also can be referenced in compute,compute
+
 
 
 
