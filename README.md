@@ -95,6 +95,31 @@ BootStrap expects container on root tag
 prop also can be referenced in compute,compute
 
 
+Vuex --> to handle to data
+Vue Router--> different sets of components on screen based on url
+Imgur --> Upload Images freely.
+Imgur Api to interact with 
+
+
+Vuex --> handle data
+
+1. State -> holds all of the raw data particular module.
+2. Getters -> any operation to be performed on state objects
+3. Mutations -> a function that operates on state which makes one distinct operation.
+4. Actions -> function that assembles together multiple mutations in a series.
+
+// 
+Vue.use(Vuex);
+
+export default new Vuex.Store({
+modules : {}
+});
+
+store is collection of state, getters, mutations, actions
+
+
+
+
 
 
 
